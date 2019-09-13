@@ -19,7 +19,8 @@ import { ShippingComponent } from './shipping/shipping.component';
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
       { path: 'products/:productId', component: ProductDetailComponent},
-      { path: 'cart', component: CartComponent}
+      { path: 'cart', component: CartComponent},
+      { path: 'shipping', component: ShippingComponent}
     ]),
     HttpClientModule
   ],
